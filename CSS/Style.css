@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Popins',sans-serif;
+}
+
+
+.navbar
+{
+    height: 60px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+}
+.navbar ul
+{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li
+{
+    list-style: none;
+    margin: 0px;
+    display: inline-block;
+    line-height: 60px;
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Roboto',sans-serif;
+    padding: 6px 13px;
+    transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover
+{
+    background: rgb(218, 148, 43);
+    border-radius: 2px;
+}
+
+
+
+.container
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    
+}
+.container .section
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+}
+.container .section:nth-child(1)
+{
+    background: url(file:///C:/Users/Thiran%20Naleendra/Desktop/Web%20Application%20Project/Project%205/Image/slide-1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 10px;
+}
+.container .section:nth-child(2)
+{
+    background: url(file:///C:/Users/Thiran%20Naleendra/Desktop/Web%20Application%20Project/Project%205/Image/w1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 10px;
+}
+.container .section:nth-child(3)
+{
+    background: url(file:///C:/Users/Thiran%20Naleendra/Desktop/Web%20Application%20Project/Project%205/Image/slide-1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
