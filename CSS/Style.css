@@ -58,21 +58,21 @@
 }
 .container .section:nth-child(1)
 {
-    background: url(file:///C:/Users/Thiran%20Naleendra/Desktop/Web%20Application%20Project/Project%205/Image/slide-1.jpg);
+    background: url(../Image/slide-1.jpg);
     background-size: cover;
     background-attachment: fixed;
     margin-bottom: 10px;
 }
 .container .section:nth-child(2)
 {
-    background: url(file:///C:/Users/Thiran%20Naleendra/Desktop/Web%20Application%20Project/Project%205/Image/w1.jpg);
+    background: url(../Image/w1.jpg);
     background-size: cover;
     background-attachment: fixed;
     margin-bottom: 10px;
 }
 .container .section:nth-child(3)
 {
-    background: url(file:///C:/Users/Thiran%20Naleendra/Desktop/Web%20Application%20Project/Project%205/Image/slide-1.jpg);
+    background: url(../Image/slide-1.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
